@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/null.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>ДЗ к уроку 10. BEM</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="block-navbar">
+					<div class="block-navbar__logo logo"></div>
+					<nav class="block-navbar__menu">
+						<ul class="block-navbar__list">
+							<li class="block-navbar__item"><a href="#" class="block-navbar__link">About Us</a></li>
+							<li class="block-navbar__item"><a href="#" class="block-navbar__link">Courses</a></li>
+							<li class="block-navbar__item"><a href="#" class="block-navbar__link">Events</a></li>
+							<li class="block-navbar__item"><a href="#" class="block-navbar__link">Blog</a></li>
+							<li class="block-navbar__item"><a href="#" class="block-navbar__link">Contacts</a></li>
+						</ul>
+					</nav>
+					<a href="#" class="block-navbar__button button">Get consultation</a>
+					<div class="block-navbar__account">
+						<a href="#" class="block-navbar__log-in">Login</a>
+						<span class="block-navbar__text">/</span>
+						<a href="#" class="block-navbar__register">Register</a>
+					</div>
+				</div>
+				<div class="header__enjoy-staduing">
+					<div class="header__video block-video">
+						<a href="#" class="block-video__icon"></a>
+						<span class="block-video__text">Play showreel</span>
+					</div>
+					<div class="header__text">Enjoy studying
+						with Createx Online Courses</div>
+					<a href="#" class="header__button button button_transparent">About us</a>
+					<a href="#" class="header__button button">Explore courses</a>
+				</div>
+				<div class="header__picture">
+					<img src="img/01.svg" alt="Online courses" class="header__image">
+				</div>
+				<div class="header__statistics block-statistics">
+					<div class="block-statistics__item item-block-statistics">
+						<div class="item-block-statistics__number">1200</div>
+						<div class="item-block-statistics__text">Students graduated</div>
+					</div>
+					<div class="block-statistics__item item-block-statistics">
+						<div class="item-block-statistics__number">84</div>
+						<div class="item-block-statistics__text">Completed courses</div>
+					</div>
+					<div class="block-statistics__item item-block-statistics">
+						<div class="item-block-statistics__number">16</div>
+						<div class="item-block-statistics__text">Qualified tutors</div>
+					</div>
+					<div class="block-statistics__item item-block-statistics">
+						<div class="item-block-statistics__number">5</div>
+						<div class="item-block-statistics__text">Years of experience</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+
+			<div class="why-createx">
+				<div class="why-createx__container">
+					<div class="why-createx__picture">
+						<img src="img/why-createx.jpg" alt="Online learning" class="why-createx__image">
+					</div>
+					<div class="why-createx__content">
+						<div class="why-createx__header block-header">
+							<h6 class="block-header__subtitle">Who we are</h6>
+							<h2 class="block-header__title">Why Createx?</h2>
+						</div>
+						<ul class="why-createx__list list">
+							<li class="list__item">A fermentum in morbi pretium aliquam adipiscing donec tempus.</li>
+							<li class="list__item">Vulputate placerat amet pulvinar lorem nisl.</li>
+							<li class="list__item">Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.
+							</li>
+							<li class="list__item">Etiam duis lobortis in fames ultrices commodo nibh.</li>
+							<li class="list__item">Tincidunt sagittis neque sem ac eget.</li>
+							<li class="list__item">Ultricies amet justo et eget quisque purus vulputate dapibus tortor.</li>
+						</ul>
+						<a href="#" class="why-createx__button button">More about us</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="featured-courses">
+				<div class="featured-courses__container">
+					<div class="block-header block-header_margin-60">
+						<h6 class="block-header__subtitle">Ready to learn?</h6>
+						<h2 class="block-header__title">Featured Courses</h2>
+					</div>
+					<a href="#" class="featured-courses__button button button_transparent">View all courses</a>
+					<div class="featured-courses__cards">
+						<div class="featured-courses__card block-card">
+							<div class="block-card__photo">
+								<img src="img/03-01.jpg" alt="photo" class="block-card__image">
+							</div>
+							<h3 class="block-card__chapter">Marketing</h3>
+							<span class="block-card__course-name">The Ultimate Google Ads Training Course</span>
+							<span class="block-card__price">$100</span>
+							<span class="block-card__teacher">by Jerome Bell</span>
+						</div>
+						<div class="featured-courses__card block-card">
+							<div class="block-card__photo">
+								<img src="img/03-02.jpg" alt="photo" class="block-card__image">
+							</div>
+							<h3 class="block-card__chapter">HR & Recruting</h3>
+							<span class="block-card__course-name">HR Management and Analytics</span>
+							<span class="block-card__price">$200</span>
+							<span class="block-card__teacher">by Leslie Alexander Li</span>
+						</div>
+						<div class="featured-courses__card block-card">
+							<div class="block-card__photo">
+								<img src="img/03-03.jpg" alt="photo" class="block-card__image">
+							</div>
+							<h3 class="block-card__chapter">Management</h3>
+							<span class="block-card__course-name">Business Development Management</span>
+							<span class="block-card__price">$400</span>
+							<span class="block-card__teacher">by Dianne Russell</span>
+						</div>
+						<div class="featured-courses__card block-card">
+							<div class="block-card__photo">
+								<img src="img/03-04.jpg" alt="photo" class="block-card__image">
+							</div>
+							<h3 class="block-card__chapter">Management</h3>
+							<span class="block-card__course-name">Prduct Management Fundamentals</span>
+							<span class="block-card__price">$480</span>
+							<span class="block-card__teacher">by Marvin McKinney</span>
+						</div>
+						<div class="featured-courses__card block-card">
+							<div class="block-card__photo">
+								<img src="img/03-05.jpg" alt="photo" class="block-card__image">
+							</div>
+							<h3 class="block-card__chapter">Marketing</h3>
+							<span class="block-card__course-name">Brand Management & PR Communications</span>
+							<span class="block-card__price">$530</span>
+							<span class="block-card__teacher">by Kristin Watson</span>
+						</div>
+						<div class="featured-courses__card block-card">
+							<div class="block-card__photo">
+								<img src="img/03-06.jpg" alt="photo" class="block-card__image">
+							</div>
+							<h3 class="block-card__chapter">Design</h3>
+							<span class="block-card__course-name">Graphic Design Basic</span>
+							<span class="block-card__price">$500</span>
+							<span class="block-card__teacher">by Guy Hawkins</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="our-benefits">
+				<div class="our-benefits__container">
+					<div class="our-benefits__title block-header">
+						<h6 class="block-header__subtitle">Our benefits</h6>
+						<h2 class="block-header__title">That’s how we do it</h2>
+					</div>
+					<div class="our-benefits__benefits">
+						<span class="our-benefits__item our-benefits__item_red-border">Experienced Tutors</span>
+						<span class="our-benefits__item">Feedback & Support</span>
+						<span class="our-benefits__item">24/7 Online Library</span>
+						<span class="our-benefits__item">Community</span>
+					</div>
+					<div class="our-benefits__content">
+						<h3 class="our-benefits__subtitle">Only practicing tutors</h3>
+						<p class="our-benefits__text">
+							Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris
+							cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa.
+							Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim,
+							nisi tempus vehicula.
+						</p>
+					</div>
+					<div class="our-benefits__picture">
+						<img src="img/our-benefits.svg" alt="Online learning" class="our-benefits__image">
+					</div>
+				</div>
+			</div>
+
+
+			<div class="our-events">
+				<div class="our-events__container">
+					<div class="our-events__title block-header">
+						<h6 class="block-header__subtitle">Our Events</h6>
+						<h2 class="block-header__title">Lectures & workshops</h2>
+					</div>
+					<div class="our-events__items">
+						<div class="our-events__item item-our-events">
+							<div class="item-our-events__date date-item-our-events">
+								<div class="date-item-our-events__day">05</div>
+								<div class="date-item-our-events__month">August </div>
+								<div class="date-item-our-events__time">11:00 – 14:00</div>
+							</div>
+							<div class="item-our-events__body">
+								<div class="item-our-events__name-course">Formation of the organizational structure of the
+									company in the face of uncertainty.</div>
+								<div class="item-our-events__form">Onine master-class</div>
+							</div>
+							<a href="#" class="item-our-events__button button button_medium-transparent">View
+								more</a>
+						</div>
+						<div class="our-events__item item-our-events">
+							<div class="item-our-events__date date-item-our-events">
+								<div class="date-item-our-events__day">24</div>
+								<div class="date-item-our-events__month">July</div>
+								<div class="date-item-our-events__time">11:00 – 12:30</div>
+							</div>
+							<div class="item-our-events__body">
+								<div class="item-our-events__name-course">Building a customer service department. Best
+									Practices.</div>
+								<div class="item-our-events__form">Onine lecture</div>
+							</div>
+							<a href="#" class="item-our-events__button button button_medium">View more</a>
+						</div>
+						<div class="our-events__item item-our-events item-our-events_shadow">
+							<div class="item-our-events__date date-item-our-events">
+								<div class="date-item-our-events__day">16</div>
+								<div class="date-item-our-events__month">July</div>
+								<div class="date-item-our-events__time">10:00 – 13:00</div>
+							</div>
+							<div class="item-our-events__body">
+								<div class="item-our-events__name-course">How to apply methods of speculative design in
+									practice. Worldbuilding prototyping.</div>
+								<div class="item-our-events__form">Onine workshop</div>
+							</div>
+							<a href="#" class="item-our-events__button button button_medium-transparent">View
+								more</a>
+						</div>
+					</div>
+					<div class="our-events__question">Do you want more?</div>
+					<a href="#" class="our-events__button button">Explore all events</a>
+				</div>
+			</div>
+
+
+			<div class="certificate">
+				<div class="certificate__container">
+					<div class="certificate__content block-certificate">
+						<div class="certificate__header block-header">
+							<h6 class="block-header__subtitle">Createx Certificate</h6>
+							<h2 class="block-header__title">Your expertise will be confirmed</h2>
+						</div>
+						<div class="certificate__text">
+							We are accredited by international professional organizations and institutes:
+						</div>
+						<div class="certificate__items">
+							<div class="certificate__item"></div>
+							<div class="certificate__item"></div>
+							<div class="certificate__item"></div>
+						</div>
+					</div>
+					<div class="certificate__picture">
+						<img src="img/createx-certificate.jpg" alt="Certificate" class="certificate__image">
+					</div>
+				</div>
+			</div>
+
+
+			<div class="best-tutors">
+				<div class="best-tutors__container">
+					<div class="best-tutors__header block-header">
+						<h6 class="block-header__subtitle">Best tutors are all here</h6>
+						<h2 class="block-header__title">Meet our team</h2>
+					</div>
+					<div class="best-tutors__control block-control">
+						<a href="#" class="block-control__arrow arraw-left"></a>
+						<a href="#" class="block-control__arrow arraw-in-circle"></a>
+
+					</div>
+					<div class="best-tutors__cards">
+						<div class="best-tutors__card block-card-photo">
+							<div class="block-card-photo__photo">
+								<img src="img/03-03.jpg" alt="photo" class="block-card-photo__image">
+							</div>
+							<span class="best-tutors__teacher">Dianne Russell</span>
+							<span class="best-tutors__function">Founder and CEO</span>
+						</div>
+						<div class="best-tutors__card block-card-photo">
+							<div class="block-card-photo__photo">
+								<img src="img/03-01.jpg" alt="photo" class="block-card-photo__image">
+							</div>
+							<span class="best-tutors__teacher">Jerome Bell</span>
+							<span class="best-tutors__function">Founder and Program Director</span>
+						</div>
+						<div class="best-tutors__card block-card-photo">
+							<div class="block-card-photo__photo">
+								<img src="img/03-05.jpg" alt="photo" class="block-card-photo__image">
+							</div>
+							<span class="best-tutors__teacher">Kristin Watson</span>
+							<span class="best-tutors__function">Marketer, Curator of Marketing Course</span>
+						</div>
+						<div class="best-tutors__card block-card-photo">
+							<div class="block-card-photo__photo">
+								<img src="img/03-04.jpg" alt="photo" class="block-card-photo__image">
+							</div>
+							<span class="best-tutors__teacher">Marvin McKinney</span>
+							<span class="best-tutors__function">PM, Curator of Management Course</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="testimonials">
+				<div class="testimonials__container">
+					<div class="testimonials__header block-header">
+						<h6 class="block-header__subtitle">Testimonials</h6>
+						<h2 class="block-header__title">What our students say</h2>
+					</div>
+					<div class="testimonials__reviews">
+						<div class="testimonials__review">
+							<p class="testimonials__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet
+								lectus
+								quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis
+								tempus
+								ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra
+								arcu
+								diam
+								maecenas diam integer in.</p>
+							<div class="testimonials__picture">
+								<img class="image" src="img/testimonials.jpg" alt="Photo">
+							</div>
+							<span class="testimonials__name">Eleanor Pena</span>
+							<span class="testimonials__position">Position, Course</span>
+						</div>
+					</div>
+					<div class="testimonials__control-left">
+						<a href="#" class="testimonials__arrow arraw-left"></a>
+					</div>
+					<div class="testimonials__control-right">
+						<a href="#" class="testimonials__arrow arraw-circle"></a>
+					</div>
+					<div class="testimonials__slider-pointer"></div>
+				</div>
+			</div>
+
+
+			<div class="our-blog">
+				<div class="our-blog__container">
+					<div class="our-blog__header block-header">
+						<h6 class="block-header__subtitle">Blog</h6>
+						<h2 class="block-header__title">Latest posts</h2>
+					</div>
+					<a class="our-blog__button button">Go to blog</a>
+					<div class="our-blog__items">
+						<div class="our-blog__item item-our-blog">
+							<div class="item-our-blog__picture">
+								<img src="img/our-blog-01.jpg" alt="Post" class="item-our-blog__image">
+							</div>
+							<div class="item-our-blog__body">
+								<div class="item-our-blog__chapter">Marketing</div>
+								<div class="item-our-blog__date">September 4, 2020</div>
+								<div class="item-our-blog__time">36 min</div>
+								<div class="item-our-blog__title">What is traffic arbitrage and does it really make money?</div>
+								<p class="item-our-blog__text">Pharetra, ullamcorper iaculis viverra parturient sed id sed.
+									Convallis
+									proin dignissim lacus, purus gravida...</p>
+							</div>
+							<div class="item-our-blog__footer">
+								<span class="item-our-blog__pointer">Listen</span>
+								<a href="#" class="item-our-blog__arrow arraw-right-red"></a>
+							</div>
+						</div>
+						<div class="our-blog__item item-our-blog">
+							<div class="item-our-blog__picture">
+								<img src="img/our-blog-02.jpg" alt="Post" class="item-our-blog__image">
+							</div>
+							<div class="item-our-blog__body">
+								<div class="item-our-blog__chapter">Management</div>
+								<div class="item-our-blog__date">August 25, 2020</div>
+								<div class="item-our-blog__time">45 min</div>
+								<div class="item-our-blog__title">What to do and who to talk to if you want to get feedback on
+									the
+									product</div>
+								<p class="item-our-blog__text">Neque a, senectus consectetur odio in aliquet nec eu. Ultricies
+									ac nibh
+									urna urna sagittis faucibus...</p>
+							</div>
+							<div class="item-our-blog__footer">
+								<span class="item-our-blog__pointer">Watch</span>
+								<a href="#" class="item-our-blog__arrow arraw-right-red"></a>
+							</div>
+						</div>
+						<div class="our-blog__item item-our-blog">
+							<div class="item-our-blog__picture">
+								<img src="img/our-blog-03.jpg" alt="Post" class="item-our-blog__image">
+							</div>
+							<div class="item-our-blog__body">
+								<div class="item-our-blog__chapter">Design</div>
+								<div class="item-our-blog__date">August 8, 2020</div>
+								<div class="item-our-blog__time"></div>
+								<div class="item-our-blog__title">Should you choose a creative profession if you are attracted
+									to
+									creativity?</div>
+								<p class="item-our-blog__text">Curabitur nisl tincidunt eros venenatis vestibulum ac placerat.
+									Tortor,
+									viverra sed vulputate ultrices...
+								</p>
+							</div>
+							<div class="item-our-blog__footer">
+								<span class="item-our-blog__pointer">Read</span>
+								<a href="#" class="item-our-blog__arrow arraw-right-red"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="subscribe">
+				<div class="subscribe__container">
+					<div class="subscribe__header block-header">
+						<h6 class="block-header__subtitle subtitle-block-header">Don’t miss anything</h6>
+						<h2 class="block-header__title title-block-header">Subscribe to the Createx School announcements</h2>
+					</div>
+					<div class="subscribe__search"></div>
+					<a href="#" class="subscribe__button button">Subscribe</a>
+				</div>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__logo">
+					<img src="img/logo-footer.svg" alt="Logo" class="footer__image">
+				</div>
+				<div class="footer__text">Createx Online School is a leader in online studying. We have lots of courses and
+					programs from the main market experts. We provide relevant approaches to online learning, internships and
+					employment in the largest companies in the country.
+				</div>
+				<div class="footer__social-links">
+					<a href="#" class="footer__facebook"></a>
+					<a href="#" class="footer__twitter"></a>
+					<a href="#" class="footer__ytube"></a>
+					<a href="#" class="footer__telegram"></a>
+					<a href="#" class="footer__instagram"></a>
+					<a href="#" class="footer__linkedin"></a>
+				</div>
+				<div class="footer__site-map site-map-footer">
+					<h6 class="site-map-footer__title">SITE MAP</h6>
+					<a href="#" class="site-map-footer__about-us">About Us</a>
+					<a href="#" class="site-map-footer__courses">Courses</a>
+					<a href="#" class="site-map-footer__events">Events</a>
+					<a href="#" class="site-map-footer__blog">Blog</a>
+					<a href="#" class="site-map-footer__contacts">Contacts</a>
+				</div>
+				<div class="footer__courses courses-footer">
+					<h6 class="courses-footer__title">Courses</h6>
+					<a href="#" class="courses-footer__marketing">Marketing</a>
+					<a href="#" class="courses-footer__management">Management</a>
+					<a href="#" class="courses-footer__hr">HR & Recruting</a>
+					<a href="#" class="courses-footer__design">Design</a>
+					<a href="#" class="courses-footer__development">Development</a>
+				</div>
+				<div class="footer__contact-us contact-us-footer">
+					<h6 class="contact-us-footer__title">CONTACT US</h6>
+					<a href="#" class="contact-us-footer__tel">(405) 555-0128</a>
+					<a href="#" class="contact-us-footer__email">hello@createx.com</a>
+				</div>
+				<div class="footer__sign sign-footer">
+					<div class="sign-footer__title">SIGN UP TO OUR NEWSLETTER</div>
+					<div class="sign-footer__form"></div>
+					<div class="sign-footer__text">*Subscribe to our newsletter to receive communications and early updates
+						from
+						Createx SEO Agency.</div>
+				</div>
+				<div class="footer__footer">
+					<span class="footer__information">© All rights reserved.</span>
+					<a href="#" class="footer__go-to-top">GO TO TOP</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
